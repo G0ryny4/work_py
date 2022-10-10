@@ -8,9 +8,8 @@ import math
 
 def multiplication_couples(arr):
 
-    indx = len(arr) - 1
+    indx = len(arr)
     reslt = []
-    res = 1
     inde = math.ceil(indx / 2)
     for i in range(inde):
         res = arr[i] * arr[(i + 1) * -1]
