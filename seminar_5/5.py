@@ -1,7 +1,7 @@
 # Создайте программу для игры в "Крестики-нолики".
 
 print("'*'*100\n")
-#print('\n')
+
 print('А теперь давайте сыграем в крестики нолики!')
 
 board = list(range(1,10))
@@ -12,7 +12,7 @@ def design_board(board):
         print('|', board[0+i*3],'|', board[1+i*3], '|', board[2+i*3], '|')
         print('-'*12)
 
-# design_board(board)
+
 
 def choice(tic_tac):
     valid = False
